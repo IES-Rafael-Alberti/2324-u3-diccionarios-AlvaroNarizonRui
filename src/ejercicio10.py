@@ -90,7 +90,7 @@ if __name__ == "__main__":
                 #Procesamiento
                 datos_cliente = mostrar_cliente_especifico(clientes,nif)
                 #Salida
-                print(f"Datos del cliente {clientes[nif]["nombre"]} \n\n{datos_cliente}")
+                print(f"Datos del cliente {clientes[nif]['nombre']} \n\n{datos_cliente}")
             except:
                 print("No hay ningun usuario registrado en la base de datos")
 
